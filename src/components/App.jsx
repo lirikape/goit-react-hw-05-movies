@@ -3,6 +3,7 @@ import { Layout } from "./Layout/Layout";
 import { Home } from "pages/Home/Home";
 import { Movies } from "pages/Movies/Movies";
 import { lazy } from "react";
+import NotFound from "pages/NotFound";
 
 
 const SelectedMovie = lazy(() => import('pages/SelectedMovie/SelectedMovie'))
@@ -24,6 +25,7 @@ export const App = () => {
             <Route path="reviews" element={<Reviews />} />
           </Route>
         </Route>
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
 
