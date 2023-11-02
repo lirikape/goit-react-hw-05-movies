@@ -2,7 +2,7 @@ import { useHttp } from 'hooks/useHttp'
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { fetchMovieReviews } from 'services/api'
-import PropTypes from 'prop-types';
+
 
 const Reviews = () => {
     const { movie_id } = useParams()

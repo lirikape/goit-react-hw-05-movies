@@ -3,7 +3,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { fetchMovieCast } from 'services/api'
 import { Item, List } from './Cast.styled'
-import PropTypes from 'prop-types';
+
 
 const MovieCast = () => {
     const { movie_id } = useParams()
