@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form } from './SearchForm.styled';
+import PropTypes from 'prop-types';
 
 export const SearchForm = ({ handleSetQuery }) => {
     const [searchText, setSearchText] = useState('');
@@ -21,4 +22,7 @@ export const SearchForm = ({ handleSetQuery }) => {
             <button type="submit">Search</button>
         </Form>
     );
+};
+SearchForm.propTypes = {
+    handleSetQuery: PropTypes.func.isRequired,
 };

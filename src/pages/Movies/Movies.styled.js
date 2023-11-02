@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import propTypes from 'prop-types';
 import { FaFilm } from 'react-icons/fa';
 
-import placeholder from '../../components/images/placeholder.png';
+import placeholder from '../../assets/images/placeholder.png';
 
 export const List = styled.ul`
   list-style: none;

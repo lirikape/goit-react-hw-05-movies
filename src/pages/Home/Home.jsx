@@ -3,7 +3,7 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { fetchMovies } from 'services/api'
 import { Item, LinkDetails, List, LogoIcon } from '../Movies/Movies.styled'
-import PropTypes from 'prop-types';
+
 
 
 export const Home = () => {
@@ -38,6 +38,3 @@ export const Home = () => {
 }
 
 
-Home.propTypes = {
-    location: PropTypes.object.isRequired,
-};

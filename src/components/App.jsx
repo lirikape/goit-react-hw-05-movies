@@ -3,7 +3,7 @@ import { Layout } from "./Layout/Layout";
 import { Home } from "pages/Home/Home";
 import { Movies } from "pages/Movies/Movies";
 import { lazy } from "react";
-import PropTypes from 'prop-types';
+
 
 const SelectedMovie = lazy(() => import('pages/SelectedMovie/SelectedMovie'))
 const MovieCast = lazy(() => import('./Cast/Cast'));
@@ -29,7 +29,4 @@ export const App = () => {
 
     </>
   );
-};
-App.propTypes = {
-  location: PropTypes.object.isRequired,
 };

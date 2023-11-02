@@ -6,7 +6,7 @@ import { Item, LinkDetails, List, LogoIcon } from 'pages/Movies/Movies.styled';
 
 import { useSearchParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import PropTypes from 'prop-types';
+
 
 export const Movies = () => {
 
@@ -58,7 +58,4 @@ export const Movies = () => {
             </div>
         </div>
     );
-};
-Movies.propTypes = {
-    location: PropTypes.object.isRequired,
 };

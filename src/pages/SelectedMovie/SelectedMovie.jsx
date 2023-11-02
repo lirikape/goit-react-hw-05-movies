@@ -3,10 +3,10 @@ import React, { useRef } from 'react'
 import { fetchMovieById } from 'services/api'
 import { Link, Outlet, useLocation, useParams } from 'react-router-dom'
 import { Container, Description, Image, ImageContainer, Links, ProdCompany, WrapperLink } from 'pages/SelectedMovie/SelectedMovie.styled'
-import noimage from 'components/images/noimage.svg';
+import noimage from '../../assets/images/noimage.svg';
 import Button from 'components/Button/Button'
 import { Suspense } from 'react'
-import PropTypes from 'prop-types';
+
 
 const SelectedMovie = () => {
     const { movie_id } = useParams()
@@ -96,8 +96,6 @@ const SelectedMovie = () => {
     )
 }
 
-SelectedMovie.propTypes = {
-    location: PropTypes.object.isRequired,
-};
+
 
 export default SelectedMovie

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import propTypes from 'prop-types';
 
-import background from '../../components/images/background.jpeg';
+import background from '../../assets/images/background.jpeg';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
