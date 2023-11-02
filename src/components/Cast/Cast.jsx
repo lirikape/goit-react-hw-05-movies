@@ -31,8 +31,6 @@ const MovieCast = () => {
     )
 }
 
-MovieCast.propTypes = {
-    location: PropTypes.object.isRequired,
-};
+
 
 export default MovieCast

@@ -32,9 +32,7 @@ const Reviews = () => {
         </>
     );
 };
-Reviews.propTypes = {
-    location: PropTypes.object.isRequired,
-};
+
 
 export default Reviews
 
